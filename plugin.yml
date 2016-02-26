@@ -1,0 +1,6 @@
+name: FrontierCore
+main: net.samongi.FrontierCore.FrontierCore
+version: 0.0
+description: Overhaul of minecraft
+author: Migsect
+depend: [SamongiLib]
