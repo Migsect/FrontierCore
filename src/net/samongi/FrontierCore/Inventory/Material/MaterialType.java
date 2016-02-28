@@ -56,4 +56,6 @@ public class MaterialType implements Displayable
   @Override public String getDisplayName(){return this.display_name;}
   @Override public ChatColor getDisplayColor(){return this.display_color;}
   @Override public MaterialData getDisplayMaterial(){return this.display_material;}
+  
+  public boolean equals(MaterialType other){return this.key_name.equals(other.key_name);}
 }

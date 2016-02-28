@@ -1,5 +1,8 @@
 package net.samongi.FrontierCore.Player.Stat;
 
+import net.samongi.FrontierCore.Data.DataKeyed;
+import net.samongi.FrontierCore.Utility.Displayable;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.material.MaterialData;
@@ -8,7 +11,7 @@ import org.bukkit.material.MaterialData;
  * 
  *
  */
-public enum BaseStat implements Stat
+public enum BaseStat implements Displayable, DataKeyed
 {
   MELEE_DAMAGE                  ("Melee Damage Bonus",        ChatColor.RED,          new MaterialData(Material.IRON_SWORD)),
   RANGE_DAMAGE                  ("Range Damage Bonus",        ChatColor.GREEN,        new MaterialData(Material.BOW)),
